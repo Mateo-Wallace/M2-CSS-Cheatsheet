@@ -57,18 +57,12 @@ header p, article p {
     color: var(--terciary);
 }
 
-/*  */
+/* Allows for content in main sections to flex */
 main {
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
-}
-
-article {
-    padding: 10px;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 /* ######################################### */
@@ -86,6 +80,8 @@ p.padding {
     padding: 3px 20px;
 }
 
+
+/* moves card header pop up above card */
 .card-header {
     position: relative;
     margin: 20px;
@@ -98,13 +94,15 @@ p.padding {
     transition: all 0.4s ease-in-out;
 }
 
+/* sections are surrounded in dashed line */
 .code-card {
     margin: 20px 10px;
     border: 2px dashed var(--terciary);
     width: 30%;
     transition: all 0.4s ease-in-out;
 }
-    
+ 
+/* hover glow on code cards */
 .code-card:hover, 
 .code-card:hover .card-header {
     box-shadow: inset 0px 0px 8px
@@ -112,9 +110,13 @@ p.padding {
     rgba(232, 102, 236, 1);
 }
 
+/* styles code blocks inside card */
 .linear-gradient-background {
     background-image: linear-gradient(
         rgba(232, 102, 236, 0.3) 0%,
         rgba(232, 102, 236, 0.6) 100%
     );
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
 }
