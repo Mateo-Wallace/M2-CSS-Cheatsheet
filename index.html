@@ -12,8 +12,8 @@
 
     <!-- Top Title -->
     <header>
-        <h1></h1>
-        <p></p>
+        <h1>CSS Snippet Cheatsheet</h1>
+        <p>Ever have trouble recalling the exact syntax for your favorite CSS code? Git it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.</p>
     </header>
 
     <!-- Flex Cards -->
@@ -22,54 +22,84 @@
         <!-- Flexbox Row -->
         <section>
             <h2>Flexbox Row</h2>
-            <p>lorem ipsum</p>
+            <p>Use these three properties to create a Flexbox row layout.</p>
             <article>
-                <p>code yada yada</p>
+                <p>.row {</p>
+                <p class="indent">display: flex;</p>
+                <p class="indent"> flex-direction: row;</p>
+                <p class="indent"> flex-wrap: wrap;</p>
+                <p>}</p>
             </article>
         </section>
 
         <!-- Flexbox Column -->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2>Flexbox Column</h2>
+            <p>Use this to create a Flexbox column layout.</p>
             <article>
-                <p></p>
+                <p>.column {</p>
+                <p class="indent">display: flex;</p>
+                <p class="indent"> flex-direction: column;</p>
+                <p>}</p>
             </article>
         </section>
 
         <!-- CSS Grid Layout -->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2>CSS Grid Layout</h2>
+            <p>Build a 12-column layout using CSS Grid.</p>
             <article>
-                <p></p>
+                <p>.grid {</p>
+                <p class="indent">display: grid;</p>
+                <p class="indent"> width: 100%;</p>
+                <p class="indent"> grid-template-columns: repeat(12, 1fr);</p>
+                <p>}</p>
             </article>
         </section>
 
         <!-- Linear Gradients -->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2>Linear Gradients</h2>
+            <p>This will create a background linear gradient from top to bottom.</p>
             <article>
-                <p></p>
+                <p>.linear-gradient-background {</p>
+                <p class="indent">background-image: linear-gradient(</p>
+                <p class="largeindent"> rgba(232, 102, 236, 0.3) 0%,</p>
+                <p class="largeindent"> rgba(232, 102, 236, 0.6) 100%</p>
+                <p class="indent">);</p>
+                <p>}</p>
             </article>
         </section>
 
         <!-- Box Transition Glow -->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2>Box Transition Glow</h2>
+            <p>Use transition and box shadows to glow on hover.</p>
             <article>
+                <p>.code-card .card-header {</p>
+                <p class="indent">border-radius: 8px;</p>
+                <p class="indent">transition: all 0.5s ease-in-out;</p>
+                <p class="indent">grid-template-columns: repeat(12, 1fr);</p>
+                <p>}</p>
                 <p></p>
+                <p>.code-card:hover,</p>
+                <p>.code-card:hover .card-header {</p>
+                <p class="indent">box-shadow: inset 0px 0px 8px</p>
+                <p>rgba(232, 102, 236, 1), 0 0 15px</p>
+                <p>rgba(232, 102, 236, 1);</p>
+                <p>}</p>
             </article>
         </section>
 
         <!-- Overlay Card with Title -->
         <section>
-            <h2></h2>
-            <p></p>
+            <h2>Overlay Card with Title</h2>
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
             <article>
-                <p></p>
+                <p>.card-header {</p>
+                <p class="indent">position: relative;</p>
+                <p class="indent">margin-top: -20px;</p>
+                <p>}</p>
             </article>
         </section>
 
@@ -77,7 +107,7 @@
 
     <!-- Bottom Footer -->
     <footer>
-        <h3></h3>
+        <h3>Made with ❤️ and CSS</h3>
     </footer>
 
 </body>
