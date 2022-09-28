@@ -20,40 +20,76 @@ h1, h2, p, h3 {
     color: var(--primary);
 }
 
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bolder;
+    font-size: x-large;
+}
+
+p {
+    line-height: 1.5;
+}
+    
+header p {
+    text-align: center;
+    margin: 20px 10% 40px 10%;
+}  
+
 header p, article p {
     color: var(--terciary);
 }
 
-h2 {
-font-weight: bolder;
-font-size: xx-large;
-margin: 30px;
-}
-
-p {
-margin: 10px;
-}
-
+/*  */
 main {
 display: flex;
+flex-direction: row;
 flex-wrap: wrap;
-justify-content: center;
-max-width: 50%;
-
-}
-
-section {
-margin: 10px;
-border: 3px dotted var(--terciary);
+justify-content: space-around;
 }
 
 /* ######################################### */
 /* Class Selectors */
 
-.indent {
+p.indent {
     text-indent: 15px;
 }
 
-.largeindent {
+p.largeindent {
     text-indent: 30px;
+}
+
+p.padding {
+    padding: 3px 20px;
+}
+
+.card-header {
+    position: relative;
+    margin: 20px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--terciary);
+    background-color: var(--secondary); 
+    transition: all 0.4s ease-in-out;
+}
+
+.code-card {
+    margin: 20px 10px;
+    border: 2px dashed var(--terciary);
+    width: 30%;
+    transition: all 0.4s ease-in-out;
+}
+    
+.code-card:hover, 
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
 }
