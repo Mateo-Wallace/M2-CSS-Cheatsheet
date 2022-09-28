@@ -32,6 +32,14 @@ h2 {
     font-size: x-large;
 }
 
+h3 {
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding: 30px;
+    padding-top: 8px;
+}
+
 p {
     line-height: 1.5;
 }
