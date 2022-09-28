@@ -120,3 +120,18 @@ p.padding {
     margin: 10px;
     border-radius: 10px;
 }
+
+/* ########################################### */
+/* Media Querie */
+
+@media screen and (max-width: 1015px){
+    .code-card {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .code-card {
+        width: 100%;
+    }
+}
