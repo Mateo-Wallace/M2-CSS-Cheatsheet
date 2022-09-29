@@ -124,7 +124,7 @@ p.padding {
 /* ########################################### */
 /* Media Querie */
 
-@media screen and (max-width: 1015px){
+@media screen and (max-width: 990px){
     .code-card {
         width: 45%;
     }
