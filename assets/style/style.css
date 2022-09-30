@@ -50,7 +50,7 @@ header p {
 }  
 
 article p {
-    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;;
+    font-family: Consolas,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New;
 }
 
 header p, article p {
@@ -100,6 +100,8 @@ p.padding {
     border: 2px dashed var(--terciary);
     width: 30%;
     transition: all 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
 }
  
 /* hover glow on code cards */
@@ -119,6 +121,7 @@ p.padding {
     padding: 10px;
     margin: 10px;
     border-radius: 10px;
+    flex: 1;
 }
 
 /* ########################################### */
