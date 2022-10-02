@@ -57,6 +57,10 @@ header p, article p {
     color: var(--terciary);
 }
 
+pre {
+    white-space: pre-wrap;
+}
+
 /* Allows for content in main sections to flex */
 main {
 display: flex;
@@ -122,6 +126,9 @@ p.padding {
     margin: 10px;
     border-radius: 10px;
     flex: 1;
+    display: flex;
+    justify-content: column;
+    align-items: center;
 }
 
 /* ########################################### */

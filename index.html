@@ -24,11 +24,11 @@
             <h2 class="card-header">Flexbox Row</h2>
             <p class="padding">Use these three properties to create a Flexbox row layout.</p>
             <article class="linear-gradient-background">
-                <p>.row {</p>
-                <p class="indent">display: flex;</p>
-                <p class="indent"> flex-direction: row;</p>
-                <p class="indent"> flex-wrap: wrap;</p>
-                <p>}</p>
+<pre><p>.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}</p></pre>
             </article>
         </section>
 
@@ -37,10 +37,10 @@
             <h2 class="card-header">Flexbox Column</h2>
             <p class="padding">Use this to create a Flexbox column layout.</p>
             <article class="linear-gradient-background">
-                <p>.column {</p>
-                <p class="indent">display: flex;</p>
-                <p class="indent"> flex-direction: column;</p>
-                <p>}</p>
+<pre><p>.column {
+    display: flex;
+    flex-direction: column;
+}</p></pre>
             </article>
         </section>
 
@@ -49,11 +49,11 @@
             <h2 class="card-header">CSS Grid Layout</h2>
             <p class="padding">Build a 12-column layout using CSS Grid.</p>
             <article class="linear-gradient-background">
-                <p>.grid {</p>
-                <p class="indent">display: grid;</p>
-                <p class="indent"> width: 100%;</p>
-                <p class="indent"> grid-template-columns: repeat(12, 1fr);</p>
-                <p>}</p>
+<pre><p>.grid {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(12, 1fr);
+}</p></pre>
             </article>
         </section>
 
@@ -62,12 +62,12 @@
             <h2 class="card-header">Linear Gradients</h2>
             <p class="padding">This will create a background linear gradient from top to bottom.</p>
             <article class="linear-gradient-background">
-                <p>.linear-gradient-background {</p>
-                <p class="indent">background-image: linear-gradient(</p>
-                <p class="largeindent"> rgba(232, 102, 236, 0.3) 0%,</p>
-                <p class="largeindent"> rgba(232, 102, 236, 0.6) 100%</p>
-                <p class="indent">);</p>
-                <p>}</p>
+<pre><p>.linear-gradient-background {
+    background-image: linear-gradient(
+        rgba(232, 102, 236, 0.3) 0%,
+        rgba(232, 102, 236, 0.6) 100%
+    );
+}</p></pre>
             </article>
         </section>
 
@@ -76,18 +76,16 @@
             <h2 class="card-header">Box Transition Glow</h2>
             <p class="padding">Use transition and box shadows to glow on hover.</p>
             <article class="linear-gradient-background">
-                <p>.code-card .card-header {</p>
-                <p class="indent">border-radius: 8px;</p>
-                <p class="indent">transition: all 0.5s ease-in-out;</p>
-                <p class="indent">grid-template-columns: repeat(12, 1fr);</p>
-                <p>}</p>
-                <p></p>
-                <p>.code-card:hover,</p>
-                <p>.code-card:hover .card-header {</p>
-                <p class="indent">box-shadow: inset 0px 0px 8px</p>
-                <p>rgba(232, 102, 236, 1), 0 0 15px</p>
-                <p>rgba(232, 102, 236, 1);</p>
-                <p>}</p>
+<pre><p>.code-card .card-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+    grid-template-columns: repeat (12, 1fr);
+}
+
+.code-card:hover,
+.code-card:hover .card-header {
+    box-shadow: inset 0px 0px 8px rgba(232, 102, 236, 1), 0 0 15px rgba(232, 102, 236, 1);
+}</p></pre>
             </article>
         </section>
 
@@ -96,10 +94,10 @@
             <h2 class="card-header">Overlay Card with Title</h2>
             <p class="padding">Use position properties and negative margins to raise elements higher than their natural starting point.</p>
             <article class="linear-gradient-background">
-                <p>.card-header {</p>
-                <p class="indent">position: relative;</p>
-                <p class="indent">margin-top: -20px;</p>
-                <p>}</p>
+<pre><p>.card-header {
+    position: relative;
+    margin-top: -20px;
+}</p></pre>
             </article>
         </section>
 
