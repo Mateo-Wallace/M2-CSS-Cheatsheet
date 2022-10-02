@@ -26,7 +26,7 @@ The completed application should meet the following criteria:
 
 ## Link to Deployed Site
 
-To access the deployed site, refer to [CSS Snippet Cheatsheet](https://mateo-wallace.github.io/m2-mini-project/).
+To access the deployed site, refer to [CSS Snippet Cheatsheet](https://mateo-wallace.github.io/M2-CSS-Cheatsheet/).
 
 ## Screenshot
 
